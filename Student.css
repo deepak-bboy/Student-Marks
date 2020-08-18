@@ -1,0 +1,44 @@
+body{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    overflow: hidden;
+}
+.tab{
+    float: left;
+}
+.tab-1{
+    margin-left: 50px;
+}
+.tab-2{
+    margin-left: 50px;
+}
+.tab-1 input{
+    display: block;
+    margin-bottom: 10px;
+}
+tr{
+    transition: all;
+    transition: .25s ease-in-out;
+}
+tr:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+.button{
+    float: right;
+    margin-bottom: 20px;
+}
+.form1{
+    border-style: ridge;
+    border-width: thick;
+}
+.topic{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
